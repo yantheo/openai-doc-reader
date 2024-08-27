@@ -13,7 +13,7 @@ openai-doc-reader est un outil basé sur l'API d'OpenAI conçu pour lire, analys
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/<votre-nom-d'utilisateur>/openai-doc-reader.git
+   git clone https://github.com/yantheo/openai-doc-reader.git
 
 2. Accédez au répertoire:
    cd openai-doc-reader
