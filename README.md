@@ -2,27 +2,30 @@
 
 openai-doc-reader est un outil basé sur l'API d'OpenAI (V2) conçu pour lire, analyser et interagir avec des documents. Ce projet permet aux utilisateurs de télécharger des fichiers (comme des PDF), de les transformer en vecteurs d'embeddings, puis d'interagir avec ces documents via une interface de chat alimentée par l'IA.
 
-## Fonctionnalités
+## Features
 
-- **Téléchargement et Traitement de Documents** : Permet aux utilisateurs de télécharger des fichiers, qui sont ensuite traités pour en extraire des embeddings.
-- **Analyse de Texte Avancée** : Utilise l'API d'OpenAI pour analyser le texte des documents et fournir des réponses contextuelles aux questions posées.
-- **Interface de Chat Interactive** : Offre une interface utilisateur intuitive pour poser des questions sur le contenu des documents et obtenir des réponses en temps réel.
-- **Citations et Références** : Fournit des réponses enrichies avec des citations et des références pour chaque réponse, permettant de retrouver facilement les informations source.
+- **Document Upload and Processing: Allows users to upload files, which are then processed to extract embeddings.
+- **Advanced Text Analysis: Utilizes the OpenAI API to analyze the text of documents and provide contextual responses to questions.
+- **Interactive Chat Interface: Provides an intuitive user interface for asking questions about the document content and receiving real-time answers.
+- **Citations and References: Enriches responses with citations and references for each answer, making it easy to locate the source information.
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository :
    ```bash
    git clone https://github.com/yantheo/openai-doc-reader.git
 
-2. Accédez au répertoire:
+2. Navigate to the directory :
    cd openai-doc-reader
 
-3. Installez les dépendances :
+3. Install the dependencies :
    pip install -r requirements.txt
 
-4. Configurez les variables d'environnement nécessaires en créant un fichier .env :
+4. Configure the necessary environment variables by creating a .env file: :
    OPENAI_API_KEY=your_openai_api_key
+   
+5. You need also to create your own thread id and assistant before running it
 
-5. Lancer l'application:
+6. Run the application :
    streamlit run app.py
+
