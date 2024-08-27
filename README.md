@@ -14,3 +14,15 @@ openai-doc-reader est un outil basé sur l'API d'OpenAI conçu pour lire, analys
 1. Clonez ce dépôt :
    ```bash
    git clone https://github.com/<votre-nom-d'utilisateur>/openai-doc-reader.git
+
+2. Accédez au répertoire:
+   cd openai-doc-reader
+
+3. Installez les dépendances :
+   pip install -r requirements.txt
+
+4. Configurez les variables d'environnement nécessaires en créant un fichier .env :
+   OPENAI_API_KEY=your_openai_api_key
+
+5. Lancer l'application:
+   streamlit run app.py
