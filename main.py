@@ -15,8 +15,8 @@ client = openai.OpenAI()
 model = "gpt-4-1106-preview"
 
 # Harcoded ids to be used once the first code run is done
-thread_id = "thread_Agg3u9YZytbX1nnHWZ3ON5BB"
-assis_id = "asst_MJjVJdtaaIpPWupEoNxttW7E"
+thread_id = "" # YOUR OWN THREAD ID
+assis_id = "" # YOUR OWN ASSIST IF
 
 # Initialize all the session
 if "file_id_list" not in st.session_state:
