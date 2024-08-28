@@ -1,6 +1,6 @@
 # openai-doc-reader
 
-openai-doc-reader est un outil basé sur l'API d'OpenAI Assistant File Search & Vector Store (V2) conçu pour lire, analyser et interagir avec des documents. Ce projet permet aux utilisateurs de télécharger des fichiers (comme des PDF), de les transformer en vecteurs d'embeddings, puis d'interagir avec ces documents via une interface de chat alimentée par l'IA.
+openai-doc-reader is a RAG tool based on the OpenAI Assistant File Search & Vector Store API (V2) designed to read, analyze, and interact with documents. This project allows users to upload files (such as PDFs), transform them into embedding vectors, and then interact with these documents through an AI-powered chat interface.
 
 ## Features
 
