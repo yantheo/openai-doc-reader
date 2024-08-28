@@ -4,10 +4,10 @@ openai-doc-reader is a RAG tool based on the OpenAI Assistant File Search & Vect
 
 ## Features
 
-- **Document Upload and Processing: Allows users to upload files, which are then processed to extract embeddings.
-- **Advanced Text Analysis: Utilizes the OpenAI API to analyze the text of documents and provide contextual responses to questions.
-- **Interactive Chat Interface: Provides an intuitive user interface for asking questions about the document content and receiving real-time answers.
-- **Citations and References: Enriches responses with citations and references for each answer, making it easy to locate the source information.
+- Document Upload and Processing: Allows users to upload files, which are then processed to extract embeddings.
+- Advanced Text Analysis: Utilizes the OpenAI API to analyze the text of documents and provide contextual responses to questions.
+- Interactive Chat Interface: Provides an intuitive user interface for asking questions about the document content and receiving real-time answers.
+- Citations and References: Enriches responses with citations and references for each answer, making it easy to locate the source information.
 
 ## Installation
 
